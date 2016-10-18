@@ -33,6 +33,8 @@ dependencyManagement {
 }
 
 dependencies {
+    compile('org.springframework.cloud:spring-cloud-sleuth-zipkin')
+    compile('org.springframework.cloud:spring-cloud-starter-sleuth')
     compile('org.springframework.cloud:spring-cloud-config-server')
 	compile('org.springframework.cloud:spring-cloud-starter-eureka')
     testCompile('org.springframework.boot:spring-boot-starter-test')
