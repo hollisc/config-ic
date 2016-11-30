@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring-config
+          uri: https://github.com/hollisc/wfd-menu-config
 
 server:
   port: ${PORT:8888}
