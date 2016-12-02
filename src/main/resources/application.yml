@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hollisc/wfd-menu-config
+          uri: https://github.com/hollisc/menu-config-ic
 
 server:
   port: ${PORT:8888}
